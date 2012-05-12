@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>sina微博@DEMO，range的应用</title>
+<style type="text/css">
+    html{
+        height: 100%;
+    }
+    body{
+        height: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    #input{
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #CCCCCC;
+    border-radius: 3px 3px 3px 3px;
+    box-shadow: 1px 1px 4px 0 #DCDCDC inset;
+    margin: 7px 0 3px;
+    padding: 5px;
+    position: relative;
+    width: 540px;
+    }
+    textarea{
+        width: 525px;
+        resize: none;
+    }
+    #list{
+        list-style: none;
+        width: 80px;
+        text-align: center;
+        border: 1px solid #333;
+        padding: 5px;
+        position: absolute;
+        z-index: 10;
+        background: #fff;
+        margin: 0;
+    }
+    #rule{
+        position: relative;
+    }
+  #list{
+      padding: 0;
+  }
+
+  #list li:hover{
+     background: #AACCEE;
+  }
+</style>
+</head>
+<body>
+<h2>sina微博@DEMO，range的应用</h2>
+<div id="input">
+    <textarea style="height: 55px; margin: 0px; padding: 0px; border-color: rgb(0, 0, 0); border-style: none; border-width: 0px; font-size: 14px; font-family: Tahoma,宋体; word-wrap: break-word; line-height: 18px; overflow-y: auto; overflow-x: hidden; outline: medium none;" node-type="textEl" name=""  tabindex="1" index="0">dsfsfsd</textarea>
+    <ul id="list">
+        <li><a href="#">张三</a></li>
+        <li><a href="#">李四</a></li>
+        <li><a href="#">王五</a></li>
+    </ul>
+</div>
+
+<div id="rule">
+    <span class="before"></span>
+    <span class="flag">@</span>
+    <span class="after"></span>
+</div>
+<script type="text/javascript" src="../static/js/qwrap-debug.js"></script>
+<script type="text/javascript" src="../static/js/webo_range.js"></script>
+</body>
+</html>
