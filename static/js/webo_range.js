@@ -20,7 +20,6 @@
                  'border-bottom-width',
                  'border-left-width',
                  'overflow-x',
-                 'overflow-y',
                  'borderTopStyle',
                  'borderTopColor',
                  'borderRightStyle',
